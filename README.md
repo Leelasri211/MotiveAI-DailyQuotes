@@ -1,53 +1,95 @@
 # MotiveAI – Daily Quotes
 
-Motive AI is an end-to-end Android app built using **Java**, providing daily quotes across multiple categories.  
-The app combines **offline storage using SQLite** and **real-time quotes fetched from free APIs**. It also includes multiple themes, user personalization, and interactive features.
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.motiveai.dailyquotes">
+    <img src="https://img.shields.io/badge/Google%20Play-Download-green?logo=google-play&style=for-the-badge" alt="Google Play"/>
+  </a>
+  <img src="https://img.shields.io/badge/Platform-Android-blue?logo=android&style=for-the-badge" alt="Android"/>
+  <img src="https://img.shields.io/badge/Language-Java-orange?logo=java&style=for-the-badge" alt="Java"/>
+  <img src="https://img.shields.io/badge/Status-Live%20on%20Play%20Store-brightgreen?style=for-the-badge" alt="Status"/>
+</p>
 
 ---
 
-## Tech Stack
-- **Language:** Java  
-- **Database:** SQLite  
-- **API Integration:** Free quotes APIs  
-- **Architecture:** Modular architecture with clean, maintainable code  
-- **UI/UX:** Material Design themes with multiple color options  
+**MotiveAI** is a fully published Android app that delivers daily motivational quotes across multiple categories. It combines **offline SQLite storage** with **real-time API-fetched quotes**, offering a smooth and personalized experience with theme customization, favorites, reminders, and sharing features.
 
 ---
 
-## Features
-- Browse quotes in **different categories**  
-- **Background quotes** with shareable text or text+image  
-- **Add/remove favorites** for both offline and API-fetched quotes  
-- **Set reminders** for categories of your choice  
-- **Theme personalization** with multiple color options  
-- **Share quotes** via social media or messaging apps  
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/homescreen.jpeg" width="180" alt="Home Screen"/>
+  &nbsp;
+  <img src="screenshots/themecolorscreen.jpeg" width="180" alt="Theme Colors"/>
+  &nbsp;
+  <img src="screenshots/my_favoritesscreen.jpeg" width="180" alt="Favorites"/>
+  &nbsp;
+  <img src="screenshots/choose_quotes_bottomsheet.jpeg" width="180" alt="Theme Colors"/>
+  &nbsp;
+  <img src="screenshots/themequotes.jpeg" width="180" alt="Theme Quotes"/>
+</p>
 
 ---
 
-## Demo Video
-Watch the 1m 18s demo of MotiveAI - Daily Quotes  here:  
-[Demo Video](https://youtu.be/-9s4gp_rb5I)
+## 🎬 Demo
+
+▶️ [Watch the 1m 18s Demo on YouTube](https://youtu.be/-9s4gp_rb5I)
 
 ---
 
-## Play Store Link
-[Motive AI – Play Store](https://play.google.com/store/apps/details?id=com.motiveai.dailyquotes&pcampaignid=web_share)
+## 🚀 Features
+
+- 📚 Browse quotes across **multiple categories**
+- 🖼️ **Background quotes** — shareable as text or image
+- ❤️ **Add/remove favorites** for both offline and API-fetched quotes
+- 🔔 **Set reminders** per category
+- 🎨 **Theme personalization** with multiple color options
+- 📤 **Share quotes** via social media or messaging apps
 
 ---
 
-## Design Credits
-- UI inspiration and base icons provided by a designer  
-- **All app logic, creative features, and end-to-end implementation done independently by me**  
+## 🛠️ Tech Stack
+
+| Area | Technology |
+|------|-----------|
+| Language | Java |
+| Database | SQLite (offline storage) |
+| API | Free Quotes APIs (real-time fetch) |
+| Architecture | Modular, clean & maintainable |
+| UI/UX | Material Design with multi-theme support |
 
 ---
 
-## Future Enhancements
-- Implement a full alarm feature alongside repeated reminders with day-based scheduling
-- Provide quotes in multiple languages based on user preference
-- Expand background themes and fonts for more personalization
+## 🏗️ Architecture Overview
+
+```
+MotiveAI
+├── UI Layer          → Activities, Fragments, Adapters
+├── Data Layer        → SQLite (offline) + Quotes API (online)
+├── Features          → Categories, Favorites, Reminders, Themes
+└── Utilities         → Share, Notification Scheduler, Theme Manager
+```
 
 ---
 
-## Notes
-- Source code is private as the app is published on the Play Store  
-- This repository contains the demo video and project documentation for recruitment purposes
+## 🔮 Future Enhancements
+
+- ⏰ Full alarm feature with day-based scheduling for repeated reminders
+- 🌍 Multi-language quote support based on user preference
+- 🖋️ Expanded background themes and font customization
+
+---
+
+## 📝 Notes
+
+- Source code is **private** as the app is published on the Play Store
+- This repository contains the **demo video and project documentation** for recruitment/portfolio purposes
+- All app logic, creative features, and end-to-end implementation were done **independently**
+- UI inspiration and base icons were provided by a designer
+
+---
+
+## 🔗 Links
+
+- 📱 [Play Store – MotiveAI - Dialy Quotes](https://play.google.com/store/apps/details?id=com.motiveai.dailyquotes&pcampaignid=web_share)
+- 🎬 [Demo Video](https://youtu.be/-9s4gp_rb5I)
